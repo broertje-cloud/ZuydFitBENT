@@ -1,4 +1,4 @@
-internal class Goal
+public class Goal
 {
     public bool achieved { get; private set; }
     public string description { get; private set; }
