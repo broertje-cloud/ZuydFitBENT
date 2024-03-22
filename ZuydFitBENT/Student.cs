@@ -1,4 +1,4 @@
-internal class Student
+public class Student
 {
     public string name { get; private set; }
     public int studentNumber { get; private set; }
