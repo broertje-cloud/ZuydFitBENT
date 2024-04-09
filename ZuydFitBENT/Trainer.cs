@@ -1,23 +1,27 @@
-public class Trainer
+class Trainer
 {
-    public int trainerId { get; private set; }
-    public string name { get; private set; }
-    public string emailAdress { get; private set; }
-    public List<Training> trainings { get; private set; }
+    public int id { private set; get; }
+    public string name { private set; get; }
+    public string expertise { private set; get; }
+    public string email { private set; get; }
+    public string phoneNumber { private set; get; }
+    public List<Activity> activities { private set; get; }
 
-    public Trainer(int TrainerId, string Name, string EmailAdress)
+    public Trainer(int Id, string Name, string Expertise, string Email, string PhoneNumber)
     {
-      trainerId = TrainerId;
-      name = Name;
-      emailAdress = EmailAdress;
-      trainings = new List<Training>();
+        id = Id;
+        name = Name;
+        expertise = Expertise;
+        email = Email;
+        phoneNumber = PhoneNumber;
+        activities = new List<Activity>();
     }
-    public void AddTraining(Training training)
+    public void AddActivity(Activity activity)
     {
-        trainings.Add(training);
+        activities.Add(activity);
     }
-    public void RemoveTraining(Training training) 
-    {  
-        trainings.Remove(training); 
+    public void RemoveActivity(Activity activity) 
+    {
+        activities.Remove(activity);
     }
 }
