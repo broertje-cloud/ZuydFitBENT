@@ -16,4 +16,20 @@ class Roster
         activities = new List<Activity>();
         participants = new List<RosterParticipant>();
     }
+    public void AddActivity(Activity activity)
+    {
+        activities.Add(activity);
+    }
+    public void RemoveActivity(Activity activity)
+    {
+        activities.Remove(activity);
+    }
+    public void AddParticipant(RosterParticipant participant)
+    {
+        participants.Add(participant);
+    }
+    public void RemoveParticipant(RosterParticipant participant)
+    {
+        participants.Remove(participant);
+    }
 }
