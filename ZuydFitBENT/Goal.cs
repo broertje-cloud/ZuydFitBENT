@@ -12,4 +12,12 @@ class Goal
         progress = new List<Progress>();
         rosterParticipant = RosterParticipant;
     }
+    public void AddProgress(Progress Progress)
+    {
+        progress.Add(Progress);
+    }
+    public void RemoveProgress(Progress Progress)
+    {
+        progress.Remove(Progress);
+    }
 }
