@@ -1,13 +1,15 @@
-public class Goal
+class Goal
 {
-    public bool achieved { get; private set; }
-    public string description { get; private set; }
-    public double percentage { get; private set; }
-  
-    public Goal(bool Achieved, string Description, double Percentage)
+    public int id { private set; get; }
+    public string description { private set; get; }
+    public List<Progress> progress { private set; get; }
+    public RosterParticipant rosterParticipant { private set; get; }
+
+    public Goal(int Id, string Description, RosterParticipant RosterParticipant)
     {
-      achieved = Achieved;
-      description = Description;
-      percentage = Percentage;
+        id = Id;
+        description = Description;
+        progress = new List<Progress>();
+        rosterParticipant = RosterParticipant;
     }
 }
