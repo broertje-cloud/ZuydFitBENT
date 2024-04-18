@@ -1,0 +1,15 @@
+C:\Users\mcrde\source\repos\testBENT\testBENT\bin\Debug\net8.0\testBENT.exe
+C:\Users\mcrde\source\repos\testBENT\testBENT\bin\Debug\net8.0\testBENT.deps.json
+C:\Users\mcrde\source\repos\testBENT\testBENT\bin\Debug\net8.0\testBENT.runtimeconfig.json
+C:\Users\mcrde\source\repos\testBENT\testBENT\bin\Debug\net8.0\testBENT.dll
+C:\Users\mcrde\source\repos\testBENT\testBENT\bin\Debug\net8.0\testBENT.pdb
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\testBENT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\testBENT.AssemblyInfoInputs.cache
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\testBENT.AssemblyInfo.cs
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\testBENT.csproj.CoreCompileInputs.cache
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\testBENT.sourcelink.json
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\testBENT.dll
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\refint\testBENT.dll
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\testBENT.pdb
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\testBENT.genruntimeconfig.cache
+C:\Users\mcrde\source\repos\testBENT\testBENT\obj\Debug\net8.0\ref\testBENT.dll
